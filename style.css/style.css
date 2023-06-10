@@ -8,7 +8,6 @@ nav{
     text-align: center;
     background-color: rgb(40, 38, 37);
     color: aliceblue;
-    border-radius: 50px;
     padding: 20px;
 }
 
@@ -18,13 +17,16 @@ section{
     gap: 25px;
     justify-content: center;
     padding: 20px;
-
+    background-image:url("https://diario16.com/wp-content/uploads/2018/12/Tierra-mundo.jpg") ;
+    background-position: center 100%;
+    background-size: contain;
+color: #fff;
 }
 
 .country{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
     gap: 5px;
@@ -97,3 +99,14 @@ section{
     .button-17:disabled {
       box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
     }
+.Fondo{
+  background-image: url("https://media.giphy.com/media/5z0Clc1s7uQfxuC1eG/giphy.gif");
+  background-position: center 25%; 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #F6F9FE;
+  padding: 50px;
+}
